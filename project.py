@@ -8,8 +8,7 @@ load_dotenv()
 
 GEMINI_KEY = os.getenv('GEMINI_KEY')
 
-# client = genai.Client(api_key=GEMINI_KEY)
-client = genai.Client(api_key='AIzaSyAvbfPeC8Be4dMTN732tz16plRQ-Z4Rc7Y')
+client = genai.Client(api_key=GEMINI_KEY)
 
 st.set_page_config(page_title="PDF Chatbot", layout="wide")
 st.title("Chat with Your PDF")
